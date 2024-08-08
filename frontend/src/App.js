@@ -5,7 +5,9 @@ import Input from './components/Input'
 function App(){
     return (
       <div>
-        <Input></Input>
+        <Input label=" Title" placeholder="Title"></Input>
+        <Input label=" Description" placeholder="Description"></Input>
+        
       </div>
     ) 
 }
